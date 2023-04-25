@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+                pai é foda
+            </h1>
+        </div>
+    </header>
+
+    <hr>
+
+    <main>
+        <div>
+    
+            <div>
+                <p id="tela"></p>
+            </div>
+            
+            <div class="numbers">
+                <div>
+                    <button class="zero" (click)="inserir('0')">0</button>
+                </div>
+
+                <div>
+                    <button (click)="inserir('1')">1</button>
+                    <button (click)="inserir('2')">2</button>
+                    <button (click)="inserir('3')">3</button>
+                </div>
+                
+                <div>
+                    <button (click)="inserir('4')">4</button>
+                    <button (click)="inserir('5')">5</button>
+                    <button (click)="inserir('6')">6</button>
+                </div>
+    
+                <div>
+                    <button (click)="inserir('7')">7</button>
+                    <button (click)="inserir('8')">8</button>
+                    <button (click)="inserir('9')">9</button>
+                </div>
+    
+            </div>
+        
+            <div>
+                <button (click)="inserir('+')">+</button>
+                <button (click)="inserir('-')">-</button>
+                <button (click)="inserir('/')">/</button>
+                <button (click)="inserir('*')">*</button>
+                <button (click)="limpar()">C</button>
+                <button (click)="resultado()">=</button>
+                <button (click)="delete()">⬅</button>
+        
+            </div>
+        </div>
+    </main>
+</body>
+</html>
