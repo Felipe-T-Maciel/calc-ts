@@ -29,3 +29,27 @@ main{
     display: flex;
     justify-content: center;
 }
+
+button{
+    width: 5rem;
+    height: 5rem;
+    font-size: xx-large;
+}
+
+.zero{
+    width: 15rem;
+}
+
+.equal{
+    height: 10rem;
+    margin-top: 0;
+}
+
+.sla{
+    display: flex;
+    flex-direction: column;
+}
+
+.equal-calc{
+    display: flex;
+}
